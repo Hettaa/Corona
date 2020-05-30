@@ -343,6 +343,7 @@
             }
             .navbar-collapse {
                 width: 400px;
+                left: 0;
             }
             #main-banner .banner-desc h2 {
                 font-size: 70px;
@@ -392,6 +393,7 @@
             }
             .navbar-collapse {
                 width: 350px;
+                left: 0;
             }
             #section-header .toolbar-area {
                 display: none;
@@ -437,6 +439,7 @@
             }
             .navbar-collapse {
                 width: 300px;
+                left: 0;
             }
             .button-details {
                 width: 100%;
