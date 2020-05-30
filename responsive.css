@@ -266,9 +266,19 @@
             }
             .navbar {
                 height: auto;
-                position: absolute;
+                position: relative;
                 top: 0px;
                 z-index: 9999;
+            }
+            .navbar-light .navbar-toggler {
+                position: absolute;
+                right: 0;
+                transform: translate(500px);
+            }
+            .navbar-collapse {
+                position: absolute;
+                top: 64px;
+                width: 700px;
             }
             #section-header .header-bottom .mainmenue-area .navbar-nav>li>a {
                 padding: 13px 26px 13px;
@@ -328,6 +338,12 @@
             #section-header .toolbar-area {
                 display: none;
             }
+            .navbar-light .navbar-toggler {
+                transform: translateX(150px);
+            }
+            .navbar-collapse {
+                width: 400px;
+            }
             #main-banner .banner-desc h2 {
                 font-size: 70px;
             }
@@ -371,6 +387,12 @@
                 margin: 0 auto;
                 justify-content: space-between;
             }
+            .navbar-light .navbar-toggler {
+                transform: translateX(100px);
+            }
+            .navbar-collapse {
+                width: 350px;
+            }
             #section-header .toolbar-area {
                 display: none;
             }
@@ -409,6 +431,12 @@
                 padding: 8px 5px;
                 font-size: 11px;
                 font-weight: 100;
+            }
+            .navbar-light .navbar-toggler {
+                transform: translateX(80px);
+            }
+            .navbar-collapse {
+                width: 300px;
             }
             .button-details {
                 width: 100%;
