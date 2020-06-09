@@ -133,4 +133,13 @@ $(document).ready(function() {
         }
     });
 
+    // navbar opacity
+    $(window).scroll(function() {
+        if ($(this).scrollTop() < 0) {
+            $(".header-bottom").css({ "opacity": "0" });
+        } else {
+            $(".header-bottom").css({ "opacity": "1" });
+        }
+    });
+
 });

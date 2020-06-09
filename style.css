@@ -177,6 +177,10 @@ li {
 
 /*start header menu*/
 
+.header-bottom {
+    transition: all 2s;
+}
+
 .menu-sticky.sticky {
     background: #ffffff;
     position: fixed;
@@ -187,12 +191,6 @@ li {
     left: 0;
     right: 0;
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
-    animation-duration: .5s;
-    animation-name: sticky-animation;
-    -webkit-animation-timing-function: ease-out;
-    animation-timing-function: ease-out;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
 }
 
 .map-popup .corona-shapemap {
