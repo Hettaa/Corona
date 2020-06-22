@@ -48,7 +48,7 @@
                 width: 75px;
             }
             #section-header .header-bottom .quote a {
-                margin: 15px 50px;
+                margin: 15px 15px;
             }
         }
         
@@ -170,7 +170,7 @@
                 font-size: 30px;
             }
             .corona-counter .counter-title {
-                font-size: 14px;
+                font-size: 13px;
             }
             #contact_form .search-tag .tag::after {
                 top: -11px;
@@ -423,6 +423,9 @@
             .spread-section .section-header2 h2 {
                 font-size: 40px;
             }
+            #contact_form .search-tag input {
+                font-size: 11px;
+            }
         }
         
         @media only screen and (max-width: 374px) {
@@ -464,6 +467,15 @@
                 font-size: 34px;
             }
             .spread-section .section-header2 h2 {
-                font-size: 34px;
+                font-size: 30px;
+            }
+            .section-header h2 {
+                font-size: 37px;
+            }
+            .section-header2 h2 {
+                font-size: 37px;
+            }
+            .handwash-section.white-area .hands-washes .wash-step .wash-title {
+                font-size: 16px;
             }
         }
